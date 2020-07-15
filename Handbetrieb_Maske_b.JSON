@@ -1,0 +1,181 @@
+{
+  "current_tester": "SSTM",
+  "current_materdata": "D:\\SVN\\Weishaupt_E01600\\image\\daten\\sw\\M1.sw",
+  "specimen_type": "1 Ph",
+  "selected_axis": "1",
+  "current_power_supply_unit": "Sinamics NT 3Ph 600V/120A",
+
+  "power_supply_controls": {
+    "setpoint_voltage": {
+      "current_value": 50,
+      "unit": "V",
+      "min_value": 0,
+      "max_value": 600,
+      "supported_precision": 0.1
+    },
+    "setpoint_frequency": {
+      "current_value": 45.0,
+      "unit": "Hz",
+      "min_value": 45.0,
+      "max_value": 75.0,
+      "supported_precision": 0.1
+    }
+  },
+  "load_machine_controls": {
+    "setpoint_speed": {
+      "current_value": 0,
+      "unit": "rpm",
+      "min_value": 0,
+      "max_value": 1000,
+      "supported_precision": 0.1
+    },
+    "setpoint_current_limit_torque": {
+      "current_value": 0,
+      "unit": "Nmm",
+      "min_value": 0,
+      "max_value": 100,
+      "supported_precision": 1
+    },
+    "setpoint_load_active": {
+      "current_value": false
+    }
+  },
+  "specimen_controls": {
+    "setpoint_rotation_direction": {
+      "current_value": "clockwise",
+      "possible_values": [
+        "clockwise",
+        "counter clockwise"
+      ]
+    },
+    "setpoint_speciment_power_supply_active": {
+      "current_value": false
+    },
+    "setpoint_1uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_2uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_4uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_7uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_10uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_20uf_condensator_connected": {
+      "current_value": false
+    },
+    "setpoint_40uf_condensator_connected": {
+      "current_value": false
+    }
+  },
+  "measurement_setup_controls": {
+    "setpoint_sample_rate": {
+      "current_value": "20 Hz",
+      "possible_values": [
+        "20 Hz",
+        "10 Hz",
+        "1 Hz"
+      ]
+    },
+    "setpoint_poweranalyzer_mode_set_to_local": {
+      "current_value": false
+    },
+    "setpoint_countinous_measurement_recording_active": {
+      "current_value": false
+    }
+  },
+
+  "actions": [
+    "shutdown_measurement",
+    "start_resistance_measurement",
+    "store_current_sample"
+  ],
+
+  "actual_values": [
+    {
+      "label": "time",
+      "current_value": null,
+      "unit": "s"
+    },
+    {
+      "label": "angle",
+      "current_value": null,
+      "unit": "°"
+    },
+    {
+      "label": "speed",
+      "current_value": null,
+      "unit": "rpm"
+    },
+    {
+      "label": "torque",
+      "current_value": null,
+      "unit": "Nmm"
+    },
+    {
+      "label": "p_mech",
+      "current_value": null,
+      "unit": "kW"
+    },
+    {
+      "label": "frequency",
+      "current_value": null,
+      "unit": "Hz"
+    },
+    {
+      "label": "voltage",
+      "current_value": null,
+      "unit": "V"
+    },
+    {
+      "label": "current",
+      "current_value": null,
+      "unit": "A"
+    },
+    {
+      "label": "p_electric",
+      "current_value": null,
+      "unit": "kW"
+    },
+    {
+      "label": "Q_1",
+      "current_value": null,
+      "unit": "kVAR"
+    },
+    {
+      "label": "S_1",
+      "current_value": null,
+      "unit": "kVA"
+    },
+    {
+      "label": "cos_phi",
+      "current_value": null,
+      "unit": ""
+    },
+    {
+      "label": "ETA_M",
+      "current_value": null,
+      "unit": ""
+    },
+    {
+      "label": "Temp_1",
+      "current_value": null,
+      "unit": "°C"
+    },
+    {
+      "label": "Temp_2",
+      "current_value": null,
+      "unit": "°C"
+    },
+    {
+      "label": "Temp_3",
+      "current_value": null,
+      "unit": "°C"
+    }
+  ]
+}

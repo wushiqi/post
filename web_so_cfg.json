@@ -1,0 +1,6 @@
+{
+  "server_url": "172.19.5.191",
+  "server_port": "3368",
+  "data_file": "Handbetrieb_Maske_b.JSON",
+  "help_cmd":"get-json-topitem,get-json-value-of <itemname>,get-data,get-name,add-user,mod-user,mod-user-pwd,mod-user-service,create-json-with-name:value,parse-json-with-\"jsonstr\""
+}
